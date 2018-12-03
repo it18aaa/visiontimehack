@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>517</width>
-    <height>362</height>
+    <width>877</width>
+    <height>562</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>90</x>
       <y>280</y>
       <width>121</width>
       <height>21</height>
@@ -30,21 +30,21 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>260</y>
+      <x>330</x>
+      <y>310</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Get this page</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>260</y>
+      <x>40</x>
+      <y>310</y>
       <width>281</width>
       <height>20</height>
      </rect>
@@ -56,10 +56,10 @@
    <widget class="QPlainTextEdit" name="plainTextEdit">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>10</y>
-      <width>441</width>
-      <height>231</height>
+      <x>460</x>
+      <y>50</y>
+      <width>391</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="font">
@@ -69,13 +69,59 @@
      </font>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>page!</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtEditResponse">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>401</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="browserView">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>200</y>
+      <width>381</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get Front Page</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>517</width>
+     <width>877</width>
      <height>21</height>
     </rect>
    </property>
