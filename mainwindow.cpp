@@ -40,12 +40,12 @@ void MainWindow::on_pushButton_clicked()
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
     request.setHeader(QNetworkRequest::CookieHeader, dotNetSeshId);
     request.setHeader(QNetworkRequest::CookieHeader, "LastRep=AC");
-    request.setHeader(QNetworkRequest::CookieHeader, "BadgeID=1294");
+    request.setHeader(QNetworkRequest::CookieHeader, "BadgeID=");
 
 
     QByteArray postData;
-    postData.append("txtBadge=1294&");
-    postData.append("txtPin=1294&");
+    postData.append("txtBadge=&");
+    postData.append("txtPin=&");
     postData.append("btnClocking=Clocking");
     postData.append("ServerTime= Server Time  12:31:51");
 
